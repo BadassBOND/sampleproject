@@ -1,0 +1,33 @@
+<mat-card>
+    
+    <!-- Search bar -->
+    <mat-form-field>
+        <input matInput [(ngModel)]="filterValue" placeholder="Search" (keyup)="applyFilter()">
+    </mat-form-field>
+
+    <table mat-table [dataSource]="dataSource" matSort>
+
+        <!-- Titel content -->,
+        <ng-container matColumnDef="title">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header="">Title</th>
+            <td mat-cell *matCellDef="let item">{{item.title}}</td>
+        </ng-container>
+
+        <!-- Price content -->,
+        <ng-container matColumnDef="price">
+            <th mat-header-cell *matHeaderCellDef="" mat-sort-header="">Price</th>
+            <td mat-cell *matCellDef="let item">{{item.price | currency:'INR'}}</td>
+        </ng-container>
+
+        <!-- Category content -->,
+        <ng-container matColumnDef="category">
+            <th mat-header-cell *matHeaderCellDef="" mat-sort-header="">Category</th>
+            <td mat-cell *matCellDef="let item">{{item.category}}</td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+</mat-card>

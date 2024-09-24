@@ -1,0 +1,64 @@
+{
+    "products": [
+      {
+        "title": "Oil",
+        "price": 209,
+        "category": "Grocery"
+      },
+      {
+        "title": "Shoes",
+        "price": 2999,
+        "category": "Fashion"
+      },
+      {
+        "title": "Headphones",
+        "price": 1549,
+        "category": "Electronics"
+      },
+      {
+        "title": "Rice",
+        "price": 149,
+        "category": "Grocery"
+      },
+      {
+        "title": "Shirt",
+        "price": 999,
+        "category": "Fashion"
+      },
+      {
+        "title": "Laptop",
+        "price": 65999,
+        "category": "Electronics"
+      },
+      {
+        "title": "Speackers",
+        "price": 1999,
+        "category": "Electronics"
+      },
+      {
+        "title": "Choclates",
+        "price": 299,
+        "category": "Grocery"
+      },
+      {
+        "title": "Tea",
+        "price": 199,
+        "category": "Grocery"
+      },
+      {
+        "title": "Eggs",
+        "price": 79.99,
+        "category": "Grocery"
+      },
+      {
+        "title": "Whatch",
+        "price": 2999,
+        "category": "Fashion"
+      },
+      {
+        "title": "Bag",
+        "price": 1199,
+        "category": "Fashion"
+      }
+    ]
+  }
